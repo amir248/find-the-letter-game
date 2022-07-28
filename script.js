@@ -135,9 +135,9 @@ document.querySelector('body > main > div > p:nth-child(3)').innerHTML='Букв
           display:grid;
           justify-content:center;
           align-items:center;
-          position:dixed;
+          position:fixed;
           width:100%;
-          min-height:calc(100vh - 300px);
+          min-height:100vh;
           font-size:70px;
           color:violet;
           text-shadow: 1px 1px green;
@@ -155,7 +155,7 @@ document.querySelector('body > main > div > p:nth-child(3)').innerHTML='Букв
           top:80%;
           justify-content:center;
           align-items:center;
-          position:dixed;
+          position:fixed;
           width:100%;
           min-height:30px;
           font-size:70px;
